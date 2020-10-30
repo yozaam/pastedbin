@@ -25,7 +25,7 @@ app.post('/', function(req, res){
 	fs.writeFile('./static/'+id+'.txt',paste , function(err) {
 		if (err) return console.error(err);
 	});
-	res.end('your file is at localhost:300/'+id);
+	res.end('your file is at lhttps://pastedbin.herokuapp.com/'+id);
 	// now update the id
 	var next_id = parseInt(id) + 1 + '';
 	console.log('writing ',next_id,'to the prev_id.txt');
