@@ -1,0 +1,14 @@
+{
+  "name": "pastebin",
+  "version": "1.0.0",
+  "description": "a pastebin clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yozaam",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

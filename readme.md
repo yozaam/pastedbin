@@ -1,0 +1,1 @@
+This is just a simple pastebin clone made during my youtube video, 
